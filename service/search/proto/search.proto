@@ -1,0 +1,26 @@
+syntax="proto3";
+
+package go.micro.service.search;
+
+service SearchService{
+    //存储文件信息
+    rpc SaveDocument(ReqSaveDocument) returns (RespSaveDocument){}
+} 
+message UserFileMeta{
+    string userName=1;
+    string fileSha1=2;
+	string fileName=3;
+	int64 fileSize=4;
+	string location=5;
+	string uploadAt=6;
+}
+message ReqSaveDocument{
+    string index=1;
+    string typ = 2;
+    UserFileMeta userFileMeta=3;
+}
+message RespSaveDocument{
+    int32 code=1;
+    bool success=2;
+    string message=3;
+}
