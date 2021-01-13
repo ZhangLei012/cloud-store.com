@@ -4,7 +4,7 @@ const (
 	//CephAccessKey 访问Key
 	CephAccessKey = "0OC98Z0B2EGXTAOW68CV"
 	//CephSecretKey 访问密钥
-	CephSecretKey = "exHICd21QDH5V5fkkSaWriPYpGDKoSItUKYoLANf"
+	CephSecretKey = "0OC98Z0B2EGXTAOW68CV"
 	//CephGWEndpoint ceph的地址
 	CephGWEndpoint = "http://127.0.0.1:9080"
 	//CephBucket ceph桶

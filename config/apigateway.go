@@ -10,9 +10,9 @@ const (
 	//UploadLBHost 上传服务LB（load balance）地址
 	//UploadLBHost = "http://upload.cloud.store.com"
 	//UploadLBHost = "101.200.168.140:28080"
-	UploadLBHost = "http://127.0.0.1:28080"
+	UploadLBHost = "http://101.200.168.140:28080"
 	//DownloadLBHost 下载服务LB（load balance）地址
 	//DownloadLBHost = "http://download.cloud.store.com"
 	//DownloadLBHost = "101.200.168.140:38080"
-	DownloadLBHost = "http://127.0.0.1:38080"
+	DownloadLBHost = "http://101.200.168.140:38080"
 )
